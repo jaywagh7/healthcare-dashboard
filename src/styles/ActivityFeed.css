@@ -1,0 +1,84 @@
+:root {
+  --card-bg: rgba(255, 255, 255, 0.75);
+  --card-shadow: rgba(0, 0, 0, 0.06);
+  --text-dark: #4f46e5;
+  --text-muted: #6b7280;
+  --bar-primary: linear-gradient(to top, #8d89dc, #4f46e5);
+  --bar-dark: linear-gradient(to top, #4f46e5,#8d89dc);
+  --bar-secondary: #e5e7eb;
+}
+
+.activity-feed {
+  background-color: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.activity-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.activity-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.activity-bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 10rem;
+}
+
+.activity-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 14.28%;
+  transition: transform 0.2s;
+}
+
+.activity-day:hover {
+  transform: scale(1.05);
+}
+
+.bar-pair {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.bar {
+  width: 0.5rem;
+  border-radius: 9999px;
+  transition: height 0.3s ease-in-out;
+}
+
+.bar.primary {
+  background: var(--bar-primary);
+}
+
+.bar.secondary {
+  background-color: var(--bar-secondary);
+}
+
+.bar.dark {
+  background: var(--bar-dark);
+}
+
+.day-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}

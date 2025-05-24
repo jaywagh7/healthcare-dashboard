@@ -1,0 +1,138 @@
+.anatomy-container {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.anatomy-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 25rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.anatomy-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.zoom-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.6rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.zoom-button:hover {
+  background-color: #f0f4ff;
+  transform: scale(1.1);
+}
+
+.zoom-icon {
+  color: #4f46e5;
+  font-size: 1.4rem;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  opacity: 0.95;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease-in-out;
+}
+
+.fade-in {
+  animation: fadeInUp 0.8s ease-in-out both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.heart-indicator {
+  top: 18%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  background-color: #4f46e5;
+  color: #fff;
+}
+
+.leg-indicator {
+  bottom: 18%;
+  left: 33%;
+  transform: translate(-50%, 50%);
+  background-color: #3882f8;
+  color: #fff;
+}
+
+.indicator-text {
+  font-size: 0.875rem;
+}
+
+.emoji {
+  font-size: 1.2rem;
+}
+
+/* Slider */
+.slider-container {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  width: 75%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #4f46e5, #94baf6);
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background: #1e40af;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.slider::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  background: #4f46e5;
+  border-radius: 50%;
+  border: 2px solid white;
+}

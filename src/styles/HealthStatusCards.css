@@ -1,0 +1,40 @@
+.health-cards-container {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.details-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.details-button {
+  color: #4f46e5;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.details-button:hover {
+  text-decoration: underline;
+}
+
+.details-icon {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0.25rem;
+  stroke: currentColor;
+  transition: transform 0.2s ease;
+}
+
+.details-button:hover .details-icon {
+  transform: translateX(2px);
+}
