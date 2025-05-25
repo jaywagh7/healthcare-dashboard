@@ -4,8 +4,6 @@ A pixel-perfect, responsive, **static healthcare dashboard** built using **React
 
 This dashboard faithfully recreates the provided UI design with a professional layout, reusable components, mock data, and clean code structure. The project demonstrates strong frontend skills in component architecture, visual fidelity, and responsive design.
 
-![Dashboard Screenshot](https://i.ibb.co/B2DdGkgF/Screenshot-2025-05-23-at-3-31-31-PM.png)
-
 ---
 
 ## 🔗 Live Demo
