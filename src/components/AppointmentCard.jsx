@@ -2,7 +2,7 @@ import React from 'react';
 import { FiClock } from 'react-icons/fi';
 
 // Import CSS here
-import '../Styles/AppointmentCard.css';
+import '../styles/AppointmentCard.css';
 
 const AppointmentCard = ({ title, doctor, time, type }) => {
   const getAppointmentColorClass = (type) => {

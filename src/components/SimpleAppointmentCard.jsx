@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fi';
 
 
-import '../Styles/SimpleAppointmentCard.css';
+import '../styles/SimpleAppointmentCard.css';
 
 const SimpleAppointmentCard = ({ title, time, type, status }) => {
   const getTypeIcon = () => {

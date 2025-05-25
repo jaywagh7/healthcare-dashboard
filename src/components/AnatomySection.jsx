@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiZoomIn } from 'react-icons/fi';
-import '../Styles/AnatomySection.css';
+import '../styles/AnatomySection.css';
 
 const AnatomySection = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import HealthStatusCard from './HealthStatusCard';
-import '../Styles/HealthStatusCards.css';
+import '../styles/HealthStatusCards.css';
 
 const HealthStatusCards = () => {
   const healthData = [

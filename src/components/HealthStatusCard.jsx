@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/HealthStatusCard.css';
+import '../styles/HealthStatusCard.css';
 
 const HealthStatusCard = ({ title, date, status, percentage, icon }) => {
   const getStatusColor = (status) => {

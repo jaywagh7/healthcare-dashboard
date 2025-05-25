@@ -6,7 +6,7 @@ import CalendarView from './CalendarView';
 import UpcomingSchedule from './UpcomingSchedule';
 
 // Import CSS here
-import '../Styles/DashboardMainContent.css';
+import '../styles/DashboardMainContent.css';
 
 const DashboardMainContent = () => {
   return (

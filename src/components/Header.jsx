@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiSearch, FiBell, FiPlus } from 'react-icons/fi';
-import '../Styles/Header.css';
+import '../styles/Header.css';
 
 const Header = () => {
   return (

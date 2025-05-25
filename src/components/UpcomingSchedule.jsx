@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleAppointmentCard from './SimpleAppointmentCard';
-import '../Styles/UpcomingSchedule.css';
+import '../styles/UpcomingSchedule.css';
 
 const UpcomingSchedule = () => {
   const appointments = [

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Import CSS here
-import '../Styles/ActivityFeed.css';
+import '../styles/ActivityFeed.css';
 
 const ActivityFeed = () => {
   const weekdays = ['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'];
