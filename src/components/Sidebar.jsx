@@ -4,9 +4,7 @@ import {
   FiBarChart2, FiFileText, FiMessageSquare,
   FiHelpCircle, FiSettings
 } from 'react-icons/fi';
-
-// Import CSS here
-import '../Styles/Sidebar.css';
+import '../styles/Sidebar.css';
 
 const Sidebar = () => {
   return (
